@@ -9,3 +9,4 @@ RUN cd /tmp
 RUN wget https://releases.hashicorp.com/packer/0.10.2/packer_0.10.2_linux_amd64.zip
 RUN unzip packer_0.10.2_linux_amd64.zip
 RUN cp packer /usr/local/sbin
+USER jenkins
