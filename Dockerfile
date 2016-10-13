@@ -1,5 +1,6 @@
 FROM jenkins:latest
 MAINTAINER mohana rao <email.to.mohanrao@gmail.com>
+USER root
 RUN apt-get install -y software-properties-common
 RUN apt-add-repository ppa:ansible/ansible -y
 RUN apt-get update -y
